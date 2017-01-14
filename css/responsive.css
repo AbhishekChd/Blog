@@ -23,8 +23,13 @@
     float: left;
 }
 .right{
+    color: #fff;
+    overflow: hidden;
     float: right;
 }
+ul.right li:not(:last-child){display: none;}
+
+
 .divider,.divider-full{
     border-bottom: 1.7px solid #c8c8c8;
     margin: auto;
@@ -34,6 +39,22 @@
 }
 .divider-full{
     width: 100%;    
+}
+/****************************/
+/******    PANEL STYLNG  ****/
+/****************************/
+.panel{
+    border: 1px solid #c8c8c8;
+    border-radius: 3px;
+}
+.panel-heading{
+    padding: 2%;
+    border-bottom: 1.3px solid #c8c8c8;
+    background-color: rgb(189, 195, 199);
+}
+.panel-body{
+    padding:1% 2%;
+    background-color: rgb(247, 245, 245);
 }
 /****************************/
 /****** RESPONSIVE STYLNG****/
@@ -94,4 +115,6 @@
     .col-l-6{
         width: 94%;
     }
+    ul.right li:last-child{display:none;}
+    ul.right li:not(:last-child){display:inline-block;}
 }

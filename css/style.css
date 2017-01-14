@@ -9,11 +9,13 @@ body{
     font-family: 'Raleway', sans-serif;
     background-color:#ecf0f1;
 }
-h1{
+h1,h2{
     padding: 1%;
     margin: 1.5%;
     width:97%;
     font-family: 'Merienda One', cursive;
+}
+h1{
     border-bottom: 1.3px solid #c8c8c8;
 }
 .blog-content{
