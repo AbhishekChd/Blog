@@ -25,7 +25,16 @@
 .right{
     float: right;
 }
-
+.divider,.divider-full{
+    border-bottom: 1.7px solid #c8c8c8;
+    margin: auto;
+}
+.divider{
+    width: 88%;
+}
+.divider-full{
+    width: 100%;    
+}
 /****************************/
 /****** RESPONSIVE STYLNG****/
 /****************************/
